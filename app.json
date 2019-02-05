@@ -1,0 +1,17 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ],
+  "env": {
+  },
+  "formation": {
+  },
+  "name": "IRAROBOT",
+  "scripts": {
+    "postdeploy": "java -jar hello-bot.jar"
+  },
+  "stack": "heroku-18"
+}
